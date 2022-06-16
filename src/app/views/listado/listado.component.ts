@@ -43,4 +43,7 @@ export class ListadoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public mostrarTitulo(titulo: string) {
+    alert(`Entrando a la receta: ${ titulo }`);
+  }
 }
